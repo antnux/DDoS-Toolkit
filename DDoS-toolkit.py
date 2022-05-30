@@ -55,6 +55,7 @@ if scelta == 1:
     scelta1 = int(input("=> "))
     if scelta1 == 1:
         os.system("python2 tools/DDoS/DDoS")
+        input()
         os.system("clear")
         os.system("python3 DDoS-toolkit.py")
 
@@ -110,6 +111,14 @@ if scelta == 5:
 
 if scelta == 6:
     exit
+
+
+
+
+
+
+
+
 
 
 
