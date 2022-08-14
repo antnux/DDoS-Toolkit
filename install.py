@@ -66,14 +66,14 @@ try:
 
     print("CLONING DDoS-Ripper")
     os.system("git clone https://github.com/palahsu/DDoS-Ripper.git && mv DDoS-Ripper tools/")
-
+    
+    os.system("clear")
     print('INSTALLATION COMPLETED')
-    print("                             ""#             m               #")
-    print(" mmm    mmm   mmmmm  mmmm     #     mmm   mm#mm   mmm    mmm#")
-    print(" #"  "  #" "#  # # #  #" "#    #    #"  #    #    #"  #  #" "#")
-    print(" #"  "  #" "#  # # #  #" "#    #    #"  #    #    #"  #  #" "#")
-    print(" #      #   #  # # #  #   #    #    #""""    #    #""""  #   #")
-    print(" "#mm"  "#m#"  # # #  ##m#"    "mm  "#mm"    "mm  "#mm"  "#m##")
+    print(" ____ ____  _      ____  _     _____ _____ _____ ____")
+    print("/   _Y  _ \/ \__/|/  __\/ \   /  __//__ __Y  __//  _ \")
+    print("|  / | / \|| |\/|||  \/|| |   |  \    / \ |  \  | | \|")
+    print("|  \_| \_/|| |  |||  __/| |_/\|  /_   | | |  /_ | |_/|")
+    print("\____|____/\_/  \|\_/   \____/\____\  \_/ \____\\____/")
     time.sleep(3)
     os.system("python3 DDoS-toolkit.py")
 
