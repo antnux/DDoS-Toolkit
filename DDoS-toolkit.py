@@ -76,6 +76,16 @@ if scelta == 1:
         os.system("python3 DDoS-toolkit.py")
     
     if scelta1 == 4:
+        webbrowser.open('https://instant-stresser.com/attack')
+        os.system("clear")
+        os.system("python3 DDoS-toolkit.py")
+
+    if scelta1 == 5:
+        webbrowser.open('https://dragonstresser.com/login')
+        os.system("clear")
+        os.system("python3 DDoS-toolkit.py")
+
+    if scelta1 == 6:
         os.system("clear")
         os.system("python3 DDoS-toolkit.py")
 
@@ -112,40 +122,4 @@ if scelta == 5:
         os.system("python3 DDoS-toolkit.py")
 
 if scelta == 6:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    exit
