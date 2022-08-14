@@ -69,12 +69,9 @@ echo -e "\n [+]         INSTALLING pip3"
 
 sudo pip3 install requests
 pip3 install colorama
-pip3 install webbrowser
 
 echo -e "\n [+]         INSTALLING pip3"
 
-
-fi
 
 if [ -d "$DR" ]; then
    echo -e "\n $FILE found."
