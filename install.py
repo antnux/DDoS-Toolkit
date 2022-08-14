@@ -13,7 +13,10 @@ try:
     print("INSTALLING PYTHON...")
     os.system("apt install python2")
     os.system("apt install python3-pip")
-
+    
+    print("INSTALLING NMAP...")
+    os.system("apt install nmap")
+    
     print("INSTALLING PYTHON MODULES...")
     os.system("pip3 install colorama")
 
