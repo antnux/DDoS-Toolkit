@@ -9,14 +9,17 @@ try:
 
     print("UPDATING SYSTEM...")
     os.system("apt update -y")
-    os.system("apt upgrade -y")
+    os.system("clear")
+    print("UPDATING COMPLETED")
 
     print("INSTALLING PYTHON...")
     os.system("apt install python2 -y")
     os.system("apt install python3-pip -y")
+    print("PYTHON INSTALLATION COMPLETED")
     
     print("INSTALLING NMAP...")
     os.system("apt install nmap -y")
+    print("NMAP INSTALLATION COMPLETED")
     
     print("INSTALLING PYTHON MODULES...")
     os.system("pip3 install colorama")
@@ -25,6 +28,7 @@ try:
     os.system("pip3 install idna>=2.8")
     os.system("pip3 install requests>=2.22.0")
     os.system("pip3 install urllib3>=1.25.7")
+    print("MODULES INSTALLATION COMPLETED")
 
     
     
