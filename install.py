@@ -3,7 +3,8 @@ import time
 try:
 
     print("if that doesn't work, start the installation with root privileges")
-    time.sleep(5.5)
+    print("LOADING...")
+    time.sleep(4)
     os.system("clear")
 
     print("UPDATING SYSTEM...")
