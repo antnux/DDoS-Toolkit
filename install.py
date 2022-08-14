@@ -15,25 +15,32 @@ def ascii():
 
 try:
     os.system("clear")
+    ascii()
     print("if that doesn't work, start the installation with root privileges")
     print("LOADING...")
     time.sleep(4)
     os.system("clear")
-
+    ascii()
     print("UPDATING SYSTEM...")
     os.system("apt update -y")
     os.system("clear")
     print("UPDATING COMPLETED")
-
+    
+    os.system("clear")
+    ascii()
     print("INSTALLING PYTHON...")
     os.system("apt install python2 -y")
     os.system("apt install python3-pip -y")
     print("PYTHON INSTALLATION COMPLETED")
     
+    os.system("clear")
+    ascii()
     print("INSTALLING NMAP...")
     os.system("apt install nmap -y")
     print("NMAP INSTALLATION COMPLETED")
     
+    os.system("clear")
+    ascii()
     print("INSTALLING PYTHON MODULES...")
     os.system("pip3 install colorama")
     os.system("pip3 install certifi")
@@ -42,10 +49,11 @@ try:
     os.system("pip3 install requests")
     os.system("pip3 install urllib3")
     print("MODULES INSTALLATION COMPLETED")
-
     
     
+    os.system("clear")
     os.system("mkdir tools")
+    ascii()
     
     print("CLONING IP-TRACK...")
     os.system("git clone https://github.com/Err0r-ICA/IP-Track && mv IP-Track tools/")
@@ -60,6 +68,13 @@ try:
     os.system("git clone https://github.com/palahsu/DDoS-Ripper.git && mv DDoS-Ripper tools/")
 
     print('INSTALLATION COMPLETED')
+    print("                             ""#             m               #")
+    print(" mmm    mmm   mmmmm  mmmm     #     mmm   mm#mm   mmm    mmm#")
+    print(" #"  "  #" "#  # # #  #" "#    #    #"  #    #    #"  #  #" "#")
+    print(" #"  "  #" "#  # # #  #" "#    #    #"  #    #    #"  #  #" "#")
+    print(" #      #   #  # # #  #   #    #    #""""    #    #""""  #   #")
+    print(" "#mm"  "#m#"  # # #  ##m#"    "mm  "#mm"    "mm  "#mm"  "#m##")
+    time.sleep(3)
     os.system("python3 DDoS-toolkit.py")
 
 
