@@ -112,8 +112,8 @@ if scelta == 4:
     
 if scelta == 5:
     try:
-        targettraceroute = input("insetisci il target: ")
-        os.system("traceroute " + targettraceroute)
+        t_arget = input("insetisci il target: ")
+        os.system("python3 tools/IPDump/ipdump.py " + t_arget)
         os.system("clear")
         os.system("python3 DDoS-toolkit.py")
     except:
