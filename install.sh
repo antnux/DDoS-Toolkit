@@ -3,7 +3,7 @@ echo -e "\n [+] UPDATING SYSTEM!"
 
 apt update
 
-mkdir clone
+mkdir tools
 
 clear
 
