@@ -28,7 +28,7 @@ try:
     os.system("git clone https://github.com/palahsu/DDoS-Ripper.git && mv DDoS-Ripper tools/")
 
     print('INSTALLATION COMPLETED')
-    os.system("python3 DDoS-Toolkit.py")
+    os.system("python3 DDoS-toolkit.py")
 
 
 
