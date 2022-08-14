@@ -23,11 +23,11 @@ try:
     
     print("INSTALLING PYTHON MODULES...")
     os.system("pip3 install colorama")
-    os.system("pip3 install certifi>=2019.11.28")
-    os.system("pip3 install chardet>=3.0.4")
-    os.system("pip3 install idna>=2.8")
-    os.system("pip3 install requests>=2.22.0")
-    os.system("pip3 install urllib3>=1.25.7")
+    os.system("pip3 install certifi")
+    os.system("pip3 install chardet")
+    os.system("pip3 install idna")
+    os.system("pip3 install requests")
+    os.system("pip3 install urllib3")
     print("MODULES INSTALLATION COMPLETED")
 
     
