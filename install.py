@@ -1,7 +1,7 @@
 import os
 import time
 try:
-
+    os.system("clear")
     print("if that doesn't work, start the installation with root privileges")
     print("LOADING...")
     time.sleep(4)
