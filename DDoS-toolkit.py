@@ -44,14 +44,16 @@ if scelta == 1:
     ascii()
     print(Fore.GREEN +" _______________________________________________")
     print("|                                               |")
-    print("|    1. DDoS                 4. Torna Indietro  |")
+    print("|    1. DDoS                 4.InstantStresser  |")
     print("|                                               |")
     print("|                                               |")
-    print("|    2. Stresser.ai                             |")
+    print("|    2. Stresser.ai          5. DragonStresser  |")
     print("|                                               |")
     print("|                                               |")
-    print("|    3. DDoS-Ripper                             |")
-    print("|_______________________________________________|")
+    print("|    3. DDoS-Ripper          6. Torna Indietro  |")
+    print("|                                               |")
+    print("|       " + Fore.RED+"for some sites login is required" + Fore.GREEN +"        |")
+    print(Fore.GREEN + "|_______________________________________________|")
     scelta1 = int(input("=> "))
     if scelta1 == 1:
         os.system("python2 tools/DDoS/DDoS")
@@ -110,7 +112,6 @@ if scelta == 5:
         os.system("python3 DDoS-toolkit.py")
 
 if scelta == 6:
-    exit
 
 
 
