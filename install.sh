@@ -98,5 +98,6 @@ if [ -d "$DR" ]; then
    echo -e "\n [/]        CLONING DDoS"
    sudo git clone https://github.com/Err0r-ICA/DDoS.git && mv $FILE tools
    python3 DDoS-Toolkit.py
+python3 DDoS-Toolkit.py
 
 #credit lunarstone292#
