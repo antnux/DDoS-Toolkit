@@ -17,6 +17,7 @@ try:
     os.system("cd ..")
     os.system(" mv DDoS-Toolkit/update__DDoS-Toolkit.py .")
     os.system("clear")
+    os.system("cd DDoS-Toolkit")
     ascii()
     print("if that doesn't work, start the installation with root privileges")
     print("LOADING...")
