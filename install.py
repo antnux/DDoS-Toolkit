@@ -14,8 +14,7 @@ def ascii():
 
 
 try:
-    os.system("cd ..")
-    os.system(" mv DDoS-Toolkit/update__DDoS-Toolkit.py .")
+    os.system("cd .. &&  mv DDoS-Toolkit/update__DDoS-Toolkit.py .")
     os.system("clear")
     os.system("cd DDoS-Toolkit")
     ascii()
