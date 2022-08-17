@@ -1,0 +1,27 @@
+import os
+def ascii():
+    print(" █    ██  ██▓███  ▓█████▄  ▄▄▄     ▄▄▄█████▓▓█████")
+    print(" ██  ▓██▒▓██░  ██▒▒██▀ ██▌▒████▄   ▓  ██▒ ▓▒▓█   ▀")
+    print("▓██  ▒██░▓██░ ██▓▒░██   █▌▒██  ▀█▄ ▒ ▓██░ ▒░▒███")
+    print("▓▓█  ░██░▒██▄█▓▒ ▒░▓█▄   ▌░██▄▄▄▄██░ ▓██▓ ░ ▒▓█  ▄")
+    print("▒▒█████▓ ▒██▒ ░  ░░▒████▓  ▓█   ▓██▒ ▒██▒ ░ ░▒████▒")
+    print("░▒▓▒ ▒ ▒ ▒▓▒░ ░  ░ ▒▒▓  ▒  ▒▒   ▓▒█░ ▒ ░░   ░░ ▒░ ░")
+    print("░░▒░ ░ ░ ░▒ ░      ░ ▒  ▒   ▒   ▒▒ ░   ░     ░ ░  ░")
+    print(" ░░░ ░ ░ ░░        ░ ░  ░   ░   ▒    ░         ░")
+    print("   ░                 ░          ░  ░           ░  ░")
+    print("                   ░                             ")
+try:
+    ascii()
+    os.system("rm -r DDoS-Toolkit")
+    print("CLONING REPOSITORY...")
+    os.system("git clone https://github.com/antnux/DDoS-Toolkit ")
+    os.system("cd DDoS-Toolkit && python3 install.py")
+
+
+
+
+
+
+
+except:
+    print("error")
