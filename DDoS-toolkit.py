@@ -92,7 +92,7 @@ if scelta == 1:
 
 if scelta == 2:
         targetnmap = input("inserisci il target: ")
-        os.system("nmap " "-p-10000 " + targetnmap)
+        os.system("nmap " + "-p-10000 " + targetnmap)
         input("----------premi invio per continuare...-------------")
         os.system("clear")
         os.system("python3 DDoS-toolkit.py")
