@@ -14,7 +14,7 @@ def ascii():
 
 
 try:
-    mv update__DDoS-Toolkit.py /root
+    os.system("mv update__DDoS-Toolkit.py /root")
     os.system("clear")
     ascii()
     print("if that doesn't work, start the installation with root privileges")
