@@ -63,7 +63,7 @@ if scelta == 1:
 
 
     if scelta1 == 2:
-        webbrowser.open('stresser.ai')
+        os.system("python3 -m webbrowser -t https://stresser.ai ")
         os.system("clear")
         os.system("python3 DDoS-toolkit.py")
 
@@ -76,12 +76,12 @@ if scelta == 1:
         os.system("python3 DDoS-toolkit.py")
     
     if scelta1 == 4:
-        webbrowser.open('https://instant-stresser.com/attack')
+        os.system("python3 -m webbrowser -t https:/instant-stresser.com/attack/")
         os.system("clear")
         os.system("python3 DDoS-toolkit.py")
 
     if scelta1 == 5:
-        webbrowser.open('https://dragonstresser.com/login')
+        os.system("python3 -m webbrowser -t https:/dragonstresser.com/")
         os.system("clear")
         os.system("python3 DDoS-toolkit.py")
 
@@ -92,7 +92,7 @@ if scelta == 1:
 
 if scelta == 2:
         targetnmap = input("inserisci il target: ")
-        os.system("nmap " + targetnmap)
+        os.system("nmap " "-p-10000 " + targetnmap)
         input("----------premi invio per continuare...-------------")
         os.system("clear")
         os.system("python3 DDoS-toolkit.py")
