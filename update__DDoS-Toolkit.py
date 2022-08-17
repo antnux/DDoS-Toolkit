@@ -1,5 +1,6 @@
 import os
 def ascii():
+    os.system("clear")
     print(" █    ██  ██▓███  ▓█████▄  ▄▄▄     ▄▄▄█████▓▓█████")
     print(" ██  ▓██▒▓██░  ██▒▒██▀ ██▌▒████▄   ▓  ██▒ ▓▒▓█   ▀")
     print("▓██  ▒██░▓██░ ██▓▒░██   █▌▒██  ▀█▄ ▒ ▓██░ ▒░▒███")
@@ -16,6 +17,7 @@ try:
     print("CLONING REPOSITORY...")
     os.system("git clone https://github.com/antnux/DDoS-Toolkit ")
     os.system("cd DDoS-Toolkit && python3 install.py")
+    os.system("cd DDoS-Toolkit")
 
 
 
