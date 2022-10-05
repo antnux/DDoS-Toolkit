@@ -14,5 +14,6 @@
 
 ![Schermata del 2022-05-30 12-01-41](https://user-images.githubusercontent.com/103955741/170970367-c4612fd4-abe0-41c5-aa4c-7c722a3e3314.png)
 
-#Update
-'python3 update_DDoS-Toolkit.py'
+# Update
+
+`python3 update__DDoS-Toolkit.py`
